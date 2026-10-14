@@ -26,11 +26,14 @@ public class Calculator {
         }
     }
 
+    // Necessary to run the calculator
     public static void main(String[] args) {
+        // Declare and initialise the counter and scanner objects
         Counter counter = new Counter();
         Scanner scanner = new Scanner(System.in);
         boolean continueCalculating = true;
 
+        // Loop to keep the calculator running until the user decides to exit
         while (continueCalculating) {
             System.out.println("----Calculator----");
             System.out.println(" 1. Add");
@@ -40,8 +43,10 @@ public class Calculator {
             System.out.println(" 5. Exit");
             System.out.print("Select an operation (1-5): ");
 
+            // Get user input for the operation choice
             int choice = scanner.nextInt();
-        
+            
+            // Perform the selected operation based on user input
             if (choice == 1) {
                 System.out.println("Enter first number: ");
                 double num1 = scanner.nextDouble();
@@ -100,6 +105,7 @@ public class Calculator {
                 System.out.println("Invalid choice. Please select a valid operation.");
             }
         }
+        // Display the total number of operations performed before exiting the calculator
         System.out.println("Total operations performed: " + counter.getCount());
     }
 }
