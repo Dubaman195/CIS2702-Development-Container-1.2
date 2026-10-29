@@ -1,0 +1,10 @@
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/aggregation/AggregationDemo.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/aggregation/Player.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/aggregation/Team.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/composition/Car.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/composition/Engine.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/composition/Transmission.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/dependency/DependencyDemo.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/dependency/EmailService.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/dependency/Logger.java
+/workspaces/CIS2702-Development-Container-1.2/lecture4/src/main/java/com/lecture/four/dependency/Message.java
